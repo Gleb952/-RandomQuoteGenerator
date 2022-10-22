@@ -31,5 +31,12 @@ var quotes = {
     "- Ralph Waldo Emerson": '"The only person you are destined to become is the person you decide to be."',
     "- Henry David Thoreau": '"Go confidently in the direction of your dreams.  Live the life you have imagined."',
     "- Erma Bombeck": '"When I stand before God at the end of my life, I would hope that I would not have a single bit of talent left and could say, I used everything you gave me."',
-    "- Booker T. Washington": '"Few things can help an individual more than to place responsibility on him, and to let him know that you trust him."'
+    "- Booker T. Washington": '"Few things can help an individual more than to place responsibility on him, and to let him know that you trust him."',
+    "- Henry Ford" : '"When I see an Alfa Romeo go by, I tip my hat."',
+    "- Jeremy Clarkson" : '"I love Alfa Romeos and that [Alfa Romeo Giulia Quadrifoglio] was tremendous."',
+    "- Jeremy Clarkson" : '"Italy’s youngsters complain, apparently, about having to live at home until they are 72 but that’s because they spend all their money on suits and coffee and Alfa Romeos rather than mortgages."'
   };
+
+  function generateQuote (){
+
+  }
