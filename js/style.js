@@ -40,4 +40,10 @@ var quotes = {
   function generateQuote (){
     var authors = Object.keys(quotes);
     console.log(authors);
+
+    var author = authors[Math.floor(Math.random() * authors.length)];
+    var quote = quotes[author];
+
+    document.querySelector("#quote").textContent = quote;
+  document.querySelector("#author").textContent = author;
   }

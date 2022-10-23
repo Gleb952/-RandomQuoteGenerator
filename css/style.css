@@ -1,0 +1,40 @@
+.quotesContainer {
+    margin-top: 5rem;
+    font-family: 'Courier New';
+    text-align: center;
+    color: black;
+}
+
+.innerQuotesContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: 300;
+    font-size: 2rem;
+    height: 50vh;
+    max-width: 90%;
+    padding: 1rem;
+    margin: 0 auto;
+    background: fixed;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.9);
+}
+.innerQuotesContainer>:only-child {
+    min-height: 50%;
+}
+
+.quote_btn {
+    padding: 10px;
+    margin: 1rem auto;
+    text-align: center;
+    
+}
+.quote_btn>button{
+    padding: 8px;
+}
+#quote{
+    opacity: 0.5;
+}
