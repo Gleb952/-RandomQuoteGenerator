@@ -1,3 +1,7 @@
+body{
+    background: linear-gradient(to right, #b300cc, #FF189A);
+
+}
 .quotesContainer {
     margin-top: 5rem;
     font-family: 'Courier New';
@@ -20,7 +24,8 @@
     text-align: center;
     border-radius: 10px;
     border: 1px solid black;
-    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.9);
+    background: white;
+    box-shadow: 0px 2px 15px -1px rgba(0, 0, 0, 0.9);
 }
 .innerQuotesContainer>:only-child {
     min-height: 50%;
@@ -34,6 +39,7 @@
 }
 .quote_btn>button{
     padding: 8px;
+    background: white;
 }
 #quote{
     opacity: 0.5;
