@@ -38,5 +38,6 @@ var quotes = {
   };
 
   function generateQuote (){
-
+    var authors = Object.keys(quotes);
+    console.log(authors);
   }
